@@ -1,0 +1,16 @@
+<ul class="navbar">
+    <li @@if (context.index==='active' ) { class="active" }>
+        <a href="./login.html">登录</a>
+    </li>
+    <li @@if (context.reg==='active' ) { class="active" }>
+        <a href="register.html">注册</a>
+    </li>
+    <li @@if (context.contact==='active' ) { class="active" }>
+        <a href="contact.html">联系我们</a>
+    </li>
+</ul>
+<style>
+    .active{
+        color:red
+    }
+</style>

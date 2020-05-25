@@ -1,0 +1,37 @@
+{
+  "name": "gulp-demo",
+  "version": "1.0.0",
+  "description": "gulp-demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuzhongzeng/gulp-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuzhongzeng/gulp-demo/issues"
+  },
+  "homepage": "https://github.com/yuzhongzeng/gulp-demo#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-file-include": "^2.2.2",
+    "gulp-html-prettify": "^0.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-using": "^0.1.1"
+  }
+}

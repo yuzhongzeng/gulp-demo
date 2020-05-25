@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="./sass/all.min.css" />
+  </head>
+  <body>
+    @@include('./navbar.html',{ "index": "active" })
+
+    <div class="login"></div>
+    <div class="wrapper">wrapper</div>
+    <div class="base">base</div>
+    <div class="box"><div class="box1">box1</div></div>
+    <div class="el"><div class="box">box</div></div>
+
+    @@include('./common/breadcrumb.html',{ "title":"首页", "breadcrumb":[{
+    "url":"...", "text":"首页" },{ "url":"...", "text":"链接一" },{ "url":"",
+    "text":"链接二" }] })
+    <script src="./js/all.js"></script>
+  </body>
+</html>

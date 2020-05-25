@@ -1,0 +1,15 @@
+<div class="page-header">
+  <h2>@@title</h2>
+  <ol class="breadcrumb">
+    @@for (var i = 0; i < (context.breadcrumb.length-1); i++) {
+    <li>
+      <a href="`+context.breadcrumb[i].url+`">`+context.breadcrumb[i].text+`</a>
+    </li>
+    }
+    <!-- 面包屑最后一项无链接 -->
+    @@for (var i = (context.breadcrumb.length-1); i < context.breadcrumb.length;
+    i++) {
+    <li><strong>`+context.breadcrumb[i].text+`</strong></li>
+    }
+  </ol>
+</div>
